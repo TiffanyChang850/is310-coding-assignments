@@ -13,3 +13,7 @@
 5. VS Studio Code
 
 ![VS studio code installation](image/vs-install.png)
+
+6. Hypothesis
+
+![Hypothesis installation](hypothesis-install.png)
