@@ -4,9 +4,11 @@
 
 1. Python
 ![Showing my python installation](image/git-and-python-install.png)
+
 3. Git
    
 ![Git installation](image/git-and-python-install.png)
+
 5. VS Studio Code
 
 ![VS studio code installation](image/vs-install.png)
