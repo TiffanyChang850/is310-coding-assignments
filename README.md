@@ -3,6 +3,7 @@
 ## Proof of Installation
 
 1. Python
+
 ![Showing my python installation](image/git-and-python-install.png)
 
 3. Git
