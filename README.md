@@ -3,8 +3,8 @@
 ## Proof of Installation
 
 1. Python
-![Showing my python installation](image/git and python install.png)
+![Showing my python installation](image/git-and-python-install.png)
 3. Git
-![Git installation](image/git and python install.png)
+![Git installation](image/git-and-python-install.png)
 5. VS Studio Code
-![VS studio code installation](image/git and python install.png)
+![VS studio code installation](image/git-and-python-install.png)
