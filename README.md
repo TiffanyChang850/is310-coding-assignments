@@ -16,4 +16,4 @@
 
 6. Hypothesis
 
-![Hypothesis installation](hypothesis-install.png)
+![Hypothesis installation](image/hypothesis-install.png)
