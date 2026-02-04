@@ -6,14 +6,17 @@
 
 ![Showing my python installation](image/git-and-python-install.png)
 
-3. Git
+2. Git
    
 ![Git installation](image/git-and-python-install.png)
 
-5. VS Studio Code
+3. VS Studio Code
 
 ![VS studio code installation](image/vs-install.png)
 
-6. Hypothesis
+4. Hypothesis
 
 ![Hypothesis installation](image/hypothesis-install.png)
+
+5. AI Workflow
+   I usually will not use AI, but if I were to use it, it would be chatgpt. I would use it for brainstorming ideas or checking my code when I have errors that I cannot solve.
