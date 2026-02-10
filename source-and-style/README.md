@@ -6,5 +6,5 @@ The digital library I am focusing on is HathiTrust. When inspecting the develope
 
 According to Google, multiple universities, like the University of California and the University of Michigan, helped create this huge digital library. Both the HathiTrust website and the University of California mention this as well, implying the creation of this webpage was a collaborative effort. In addition, Hathitrus also lists people from Indiana University and the University of Illinois as part of their leadership.
 
-![Screenshot_of_HathiTrust_mission_statement](source-and-style/image/mention.png)
-![Screenshot of mentioned leaders](source-and-style/image/mention1.png)
+![Screenshot_of_HathiTrust_mission_statement](image/mention.png)
+![Screenshot of mentioned leaders](image/mention1.png)
