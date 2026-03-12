@@ -34,20 +34,19 @@ def check(sure):
     Name = input("Enter new input: ")
     sure = input("Is this the name you meant to enter? (Y/N)")
     if sure == "Y":
-      a == True
-      y == True
+      a = True
+      y = True
     return y
 check(sure)
 Age = input("Enter the age of the player: ")
-sure1 = input("Is this the name you meant to enter? (Y/N)")
+sure1 = input("Is the age you meant to enter? (Y/N)")
 check(sure1)
 Position = input("Enter the position of the player: ")
-sure2 = input("Is this the name you meant to enter? (Y/N)")
+sure2 = input("Is this the position you meant to enter? (Y/N)")
 check(sure2)
 Starter = input("Enter if the player is a starter: ")
-sure3 = input("Is this the name you meant to enter? (Y/N)")
+sure3 = input("Is this what you meant to enter? (Y/N)")
 check(sure3)
 if y == True: 
   table.add_row(Age, Name, Position, Starter)
-  
 console.print(table)
