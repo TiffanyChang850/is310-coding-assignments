@@ -35,7 +35,7 @@ def check(sure):
     if sure == "Y":
       a == True
       y == True
-    elif
+    elif:
       y == False
     return y
 check(sure)
