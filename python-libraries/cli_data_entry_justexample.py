@@ -31,21 +31,25 @@ def check(sure):
   elif sure == "N":
     a = False
   while a is False: 
-    Name = input("Enter new input: ")
+    newvar = input("Enter new input: ")
     sure = input("Is this what you meant to enter? (Y/N)")
     if sure == "Y":
       a = True
       y = True
-    return y
+    return newvar
+Name = newvar
 y = check(sure)
 Age = input("Enter the age of the player: ")
 sure1 = input("Is the age you meant to enter? (Y/N)")
 y = check(sure1)
+Age = newvar
 Position = input("Enter the position of the player: ")
 sure2 = input("Is this the position you meant to enter? (Y/N)")
 y = check(sure2)
+Position = newvar
 Starter = input("Enter if the player is a starter: ")
 sure3 = input("Is this what you meant to enter? (Y/N)")
 y = check(sure3) 
+Starter = newvar
 table.add_row(Age, Name, Position, Starter)
 console.print(table)
