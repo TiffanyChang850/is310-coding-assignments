@@ -3,12 +3,12 @@ from rich.console import Console
 from rich.table import Table
 
 console = Console()
-console.print("List of volleyball stars on the Japanese national team", style="bold red")
-table = Table(title="Japan Volleyball Stars")
-table.add_column("Age", style="cyan", no_wrap=True)
-table.add_column("Name", style="magenta")
-table.add_column("Position", justify="right")
-table.add_column("Starter (Y/N)", justify = "right")
+console.print("List of volleyball stars on the Japanese national team", style = "bold red")
+table = Table(title = "Japan Volleyball Stars")
+table.add_column("Age", style = "cyan", no_wrap = True)
+table.add_column("Name", style = "magenta")
+table.add_column("Position", justify="right", style = "yellow")
+table.add_column("Starter (Y/N)", justify = "right", style = "green")
 table.add_row("30", "Yuki Ishikawa", "Outside Hitter", "Y")
 table.add_row("24", "Ran Takahashi", "Outside Hitter", "Y")
 table.add_row("26", "Yuji Nishida", "Opposite", "Y")
@@ -49,3 +49,5 @@ sure3 = input("Is this the name you meant to enter? (Y/N)")
 check(sure3)
 if y == True: 
   table.add_row(Age, Name, Position, Starter)
+  
+console.print(table)
