@@ -27,7 +27,7 @@ def check(sure):
   if sure == "Y":
     a == True
     y == True
-  if sure == "N":
+  elif sure == "N":
     a = False
   while a is False: 
     Name = input("Enter new input: ")
