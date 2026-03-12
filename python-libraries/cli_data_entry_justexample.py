@@ -18,6 +18,7 @@ table.add_row("27", "Kento Miyaura", "Opposite", "N")
 console.print(table)
 console.print("\n[bold purple]Please enter other favorite players:[/bold purple]")
 
+y = False
 Name = input("Enter the name of the player: ")
 console.print("This is the name you entered: ", Name)
 sure = input("Is this the name you meant to enter? (Y/N)")
@@ -25,8 +26,8 @@ def check(sure):
   a = False
   y = False
   if sure == "Y":
-    a == True
-    y == True
+    a = True
+    y = True
   elif sure == "N":
     a = False
   while a is False: 
