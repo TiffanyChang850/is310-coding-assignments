@@ -24,7 +24,7 @@ console.print("This is the name you entered: ", Name)
 sure = input("Is this the name you meant to enter? (Y/N)")
 def check(sure):
   a = False
-  y = False
+  y = True
   if sure == "Y":
     a = True
     y = True
@@ -32,7 +32,7 @@ def check(sure):
     a = False
   while a is False: 
     Name = input("Enter new input: ")
-    sure = input("Is this the name you meant to enter? (Y/N)")
+    sure = input("Is this what you meant to enter? (Y/N)")
     if sure == "Y":
       a = True
       y = True
