@@ -53,3 +53,6 @@ y = check(sure3)
 Starter = y
 table.add_row(Age, Name, Position, Starter)
 console.print(table)
+console.save_text("output.txt")
+file_path = os.path.abspath(output.txt)
+print(f"Content saved to file at: {file_path}")
