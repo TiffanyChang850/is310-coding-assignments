@@ -1,6 +1,7 @@
 from rich import print
 from rich.console import Console
 from rich.table import Table
+import os
 
 console = Console(record = True)
 console.print("List of volleyball stars on the Japanese national team", style = "bold red")
