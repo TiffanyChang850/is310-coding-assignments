@@ -2,7 +2,7 @@ from rich import print
 from rich.console import Console
 from rich.table import Table
 
-console = Console()
+console = Console(record = True)
 console.print("List of volleyball stars on the Japanese national team", style = "bold red")
 table = Table(title = "Japan Volleyball Stars")
 table.add_column("Age", style = "cyan", no_wrap = True)
