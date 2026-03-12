@@ -39,10 +39,13 @@ def check(sure):
     return y
 check(sure)
 Age = input("Enter the age of the player: ")
-check(sure)
+sure1 = input("Is this the name you meant to enter? (Y/N)")
+check(sure1)
 Position = input("Enter the position of the player: ")
-check(sure)
+sure2 = input("Is this the name you meant to enter? (Y/N)")
+check(sure2)
 Starter = input("Enter if the player is a starter: ")
-check(sure)
+sure3 = input("Is this the name you meant to enter? (Y/N)")
+check(sure3)
 if y == True: 
   table.add_row(Age, Name, Position, Starter)
