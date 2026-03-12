@@ -18,7 +18,7 @@ table.add_row("27", "Kento Miyaura", "Opposite", "N")
 console.print(table)
 console.print("\n[bold purple]Please enter other favorite players:[/bold purple]")
 
-y = True
+y = ""
 Name = input("Enter the name of the player: ")
 console.print("This is the name you entered: ", Name)
 sure = input("Is this the name you meant to enter? (Y/N)")
@@ -37,19 +37,19 @@ def check(sure):
       a = True
       y = True
     return newvar
-Name = newvar
 y = check(sure)
+Name = y
 Age = input("Enter the age of the player: ")
 sure1 = input("Is the age you meant to enter? (Y/N)")
 y = check(sure1)
-Age = newvar
+Age = y
 Position = input("Enter the position of the player: ")
 sure2 = input("Is this the position you meant to enter? (Y/N)")
 y = check(sure2)
-Position = newvar
+Position = y
 Starter = input("Enter if the player is a starter: ")
 sure3 = input("Is this what you meant to enter? (Y/N)")
 y = check(sure3) 
-Starter = newvar
+Starter = y
 table.add_row(Age, Name, Position, Starter)
 console.print(table)
