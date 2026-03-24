@@ -18,11 +18,7 @@ if asec:
   for li in sibling.find_all("li"):
             text = li.get_text(strip=True)
             if text:
-                abilities_data.append(text)
-os.makedirs("webscrape", exist_ok = True)
-output_file = "web_scraping_assignments/zoro_abilities.json"
+                abilities.append(text)
 
-with open(output_file, "w", encoding="utf-8") as f:
-    json.dump(abilities_data, f, indent=4, ensure_ascii=False)
-
-print(f"Saved {len(abilities_data)} abilities to {output_file}")
+df = pd.DataFrame(abilities)
+df.to_csv('fandomscrape.csv', index=False)
