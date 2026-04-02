@@ -3,7 +3,7 @@ import json
 from rich import print
 
 SWAPI_URL = "https://swapi.dev/api/people/1/"
-EUROPEANA_KEY = "YOUR_API_KEY"
+EUROPEANA_KEY = "****use your own api key"
 EUROPEANA_URL = "https://api.europeana.eu/record/v2/search.json"
 
 swapi_response = requests.get(SWAPI_URL)
